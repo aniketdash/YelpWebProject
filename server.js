@@ -22,7 +22,7 @@ var indexRoutes= require("./routes/index");
 
 
 //mongo db connection using mongoose
-mongoose.connect('mongodb://localhost:27017/yelp_camp_v1', {
+mongoose.connect('mongodb://localhost:27017/yelp_camp_v2', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false
@@ -60,6 +60,8 @@ app.use(require("express-session")({
     resave: false,
     saveUninitialized : false
 }));
+
+app.locals.moment = require('moment');
 
 app.use(passport.initialize());
 app.use(passport.session());
