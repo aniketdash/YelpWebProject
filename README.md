@@ -1,5 +1,5 @@
 # YelpWebProject
-A full Stack website for travellers to add new camping sites with user authentication nad review and comment features enabled to improve travell experience.
+A full Stack website with RESTfull routing  for travellers to add new camping sites with user authentication and review and comment features enabled to improve travell experience.
 Future deployments of google maps and user profiles to be implemented in future commits.
 Built using : Node , Express, Javascript and EJS templating.
 
